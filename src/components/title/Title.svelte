@@ -10,7 +10,7 @@
     top: 5vw;
     transform: translateX(-50%);
     color: whitesmoke;
-    font-size: 13.4vw;
+    font-size: 12.5vw;
   }
 </style>
 

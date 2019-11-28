@@ -1,0 +1,16 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "../../src/App.svelte",
+    "../../src/components/hero/Hero.svelte",
+    "../../src/components/title/Title.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import { Hero } from \"./components/hero\";\n</script>\n\n<style>\n  :global(body) {\n    margin: 0;\n    padding: 0;\n    font-family: 'Noto Sans', sans-serif;\n\n  }\n</style>\n<link href=\"https://fonts.googleapis.com/css?family=Noto+Sans&display=swap\" rel=\"stylesheet\">\n\n<Hero />\n",
+    "<script>\n  import { Title } from \"./../title\";\n</script>\n\n<style>\n  .hero {\n    background-image: linear-gradient(0deg, rgb(38, 185, 87) 0%, #FE9E01 50%, #640CAB 100%);\n    height: 1000vh;\n    width: 100%;\n  }\n</style>\n\n<main class=\"hero\">\n  <Title />\n</main>\n",
+    "<script>\n  let title = \"спонедельника\";\n</script>\n\n<style>\n  .title {\n    text-transform: lowercase;\n    position: fixed;\n    left: 50%;\n    top: 5vw;\n    transform: translateX(-50%);\n    color: whitesmoke;\n    font-size: 13.4vw;\n  }\n</style>\n\n<h1 class='title'>{title}</h1>\n"
+  ],
+  "names": [],
+  "mappings": "AAKU,IAAI,AAAE,CAAC,AACb,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,WAAW,CAAE,WAAW,CAAC,CAAC,UAAU,AAEtC,CAAC;ACLD,KAAK,eAAC,CAAC,AACL,gBAAgB,CAAE,gBAAgB,IAAI,CAAC,CAAC,IAAI,EAAE,CAAC,CAAC,GAAG,CAAC,CAAC,EAAE,CAAC,CAAC,EAAE,CAAC,CAAC,OAAO,CAAC,GAAG,CAAC,CAAC,OAAO,CAAC,IAAI,CAAC,CACvF,MAAM,CAAE,MAAM,CACd,KAAK,CAAE,IAAI,AACb,CAAC;ACJD,MAAM,cAAC,CAAC,AACN,cAAc,CAAE,SAAS,CACzB,QAAQ,CAAE,KAAK,CACf,IAAI,CAAE,GAAG,CACT,GAAG,CAAE,GAAG,CACR,SAAS,CAAE,WAAW,IAAI,CAAC,CAC3B,KAAK,CAAE,UAAU,CACjB,SAAS,CAAE,MAAM,AACnB,CAAC"
+}

@@ -10,7 +10,13 @@
     top: 5vw;
     transform: translateX(-50%);
     color: whitesmoke;
-    font-size: 12.5vw;
+    font-size: 13.2vw;
+  }
+
+  @media (max-width: 414px) {
+    .title {
+      top: 40vw;
+    }
   }
 </style>
 
